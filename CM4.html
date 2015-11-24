@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AEWS Click Through Demonstration">
+    <meta name="author" content="Stephen Gault">
+
+    <title>AEWS Click Through</title>
+
+     <!-- Fav Icon - Universal code - Image must be 16 x 16 pixels -->
+    <link rel='shortcut icon' type='image/x-icon' href='img/csfs.jpg' />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/AEWSClick.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, page notes and tracking for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle">Navigation <b class="caret"></b></a>
+                        <ul class="dropdown-menu columns">
+                            <li><a href="Login.html">Login</a><tml/li>
+                            <li><a href="Home.html">Home Page</a></li>
+                            <li><a href="CS1.html">Company Set-Up Overview</a></li>
+                            <li><a href="CS2.html">Company Set-Up Pension Data</a></li>
+                            <li><a href="CS3.html">Company Set-Up Pension Date Continued</a></li>
+                            <li><a href="CS4.html">Company Set-Up Pension Data Complete</a></li>
+                            <li><a href="CS5.html">Company Set-Up Building Your Company Profile</a></li>
+                            <li><a href="CS6.html">Company Set-Up Payroll Mapping</a></li>
+                            <li><a href="CS7.html">Company Set-Up Payroll Mapping Continued</a></li>
+                            <li><a href="CS8.html">Payroll Mapping Summary</a></li>
+                            <li><a href="CS9.html">Company Set-Up Overview Page</a></li>
+                            <li><a href="CS10.html">Home, Set-Up Complete</a></li>
+                            <li><a href="SC1.html">Start Certification</a></li>
+                            <li><a href="SC2.html">Certification Overview Start</a></li>
+                            <li><a href="SC3.html">Certification Overview </a></li>
+                            <li><a href="SC4.html">Modelling &amp; certification Starting Point</a></li>
+                            <li><a href="SC5.html">Modelling &amp; certification Starting End</a></li>
+                            <li><a href="SC6.html">Certification Overview End</a></li>
+                            <li><a href="CM1.html">Compliance Check Start</a></li>
+                            <li><a href="CM2.html">Compliance Data Load</a></li>
+                            <li><a href="CM3.html">Compliance Results</a></li>
+                            <li><a href="CM4.html">Compliance Results Actions</a></li>
+                            <li><a href="CM5.html">Compliance Results Contributions</a></li>
+                            <li><a href="CM6.html">Compliance Communications</a></li>
+                            <li><a href="CM7.html">Compliance Results 1</a></li>
+                            <li><a href="CM8.html">Compliance Results 2</a></li>
+                            <li><a href="DL1.html">Download Files</a></li>
+                            <li><a href="HE1.html">Home Page End</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Page Tracking -->
+                <ul class="nav navbar-nav navbar-center">
+                     <li class="active"><a href="CM4.html">Compliance Results Actions 1</a></li>
+                </ul>
+                
+                <!-- Pop up panel contain pages notes -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#myModal" data-toggle="modal" data-target="#myModal">Page Notes</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+<body>
+<img src="img/Log21.png" class="center-block img-responsive" usemap="#Map">    <!-- image for background is set to responsive to auto adjust to different screen sizes-->
+<map name="Map" id="Map">
+    <area alt="" title="" href="CM5.html" shape="poly" coords="316,127,1276,123,1282,3600,318,3600" />    <!-- Coordinates for hotspot click to next page -->
+</body>
+
+ <!-- this is the page notes pop up using built js script with bootstrap -->  
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h2>About this page</h2>
+                    <p>AEWS automatically identifies the correct action based on the information you provide via the upload of data. This helps you complete your auto-enrolment process in a quick manner. In this example, 38 people have become eligible and have been given the action to be auto enrolled .</p>
+            <hr>
+                <h2>Features</h2>
+                    <ul>
+                        <li>AEWS analyses each payroll file and returns a list of any actions you need to carry out under the auto-enrolment regulations. </li>
+                        <li>AEWS categorises these by type and then by the trigger-point.</li>
+                        <li>Other actions are available under each dropdown, these typically allow the amendment of actions if they have been processed incorrectly</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+   
+</body>
+
+</html>
